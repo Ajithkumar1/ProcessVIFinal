@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="7.2.1" name="ProcessVIFinal" packageVersion="1.0.0" vendor="Adero">
+            <JarResources>
+                <FileResource description="" file="processvifinal.jar" type="JAR"/>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <ThingPackages>
+        <ThingPackage className="com.adero.thing.ProcessVIFinal" description="" name="ProcessVIFinalPackage"/>
+    </ThingPackages>
+    <ThingTemplates>
+        <ThingTemplate aspect.isEditableExtensionObject="false" description="" name="ProcessVIFinal" thingPackage="ProcessVIFinalPackage"/>
+    </ThingTemplates>
+</Entities>
