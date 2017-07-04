@@ -289,6 +289,7 @@ public class ProcessVIFinal extends Thing {
 		_logger.trace("Entering Service: ProcessVIF");
 		
 		
+		
 		BufferedImage map = null;
 		InputStream in = new ByteArrayInputStream(image);
         try {
